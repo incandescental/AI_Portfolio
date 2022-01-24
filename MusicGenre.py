@@ -22,8 +22,8 @@ import keras_tuner as kt
 # Import data
 # Originally from https://www.kaggle.com/purumalgi/music-genre-classification
 
-df = pd.read_csv(r'C:\Users\Alan Cash\OneDrive - York St John University\Year 3\AI\archive\train.csv')
-labels = pd.read_csv(r'C:\Users\Alan Cash\OneDrive - York St John University\Year 3\AI\archive\submission.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/incandescental/AI_Portfolio/main/train.csv')
+labels = pd.read_csv('https://raw.githubusercontent.com/incandescental/AI_Portfolio/main/submission.csv')
 
 # Assign ID Values
 
